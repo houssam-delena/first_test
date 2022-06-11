@@ -1,0 +1,558 @@
+              /*first step*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.first_father{
+    height: 1000px;
+    width: 100%; 
+    background-size: cover;
+    background-color: black;
+    position: relative;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+.them_pic{
+    height: 1000px;
+    width: 100%;
+    opacity: .6;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width: 120px;
+    font-size: 40px; 
+    font-weight: bolder;
+    justify-content: center;
+}
+.dot{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    justify-content: center;
+    color: red;
+}
+.navitems{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.navitems a{
+    text-decoration: none;
+    color: inherit;
+    font: inherit;
+    font-size: 18px;
+}
+.navitems a:hover{
+    color: rgb(255, 115, 0);
+}
+.navitems a:active{
+    color: rgb(255, 115, 0);
+}
+.content{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    width: 600px;
+    position: absolute;
+    top: 340px;
+    left: 200px;
+}
+.head_shop{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.p_shop{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.button{
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+}
+.shop{
+    font-size: 18px;
+    border: solid white 2px;
+    text-align: center;
+    padding: auto;
+    padding-top: 10px;
+    margin-top: 5px;
+    height: 35px;
+    width: 150px;
+}
+.club{
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border: solid white 2px;
+    text-align: center;
+    padding: auto;
+    padding-top:  10px;
+    margin-top: 5px;
+    height: 35px;
+    width: 200px;
+}
+.club, .shop{
+    cursor: pointer;
+}
+.shop:hover{
+    background-color: white;
+    color: black;
+}
+.club:hover{
+    background-color: transparent;
+    color: white;
+}
+            /* second step */
+.intr{
+    height: max-content;
+    width: 500px;    
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}       
+.intr_h1{
+    font-size: 40px;
+}     
+.intr_h4{
+    color: rgba(0, 0, 0, 0.251);
+}
+.intr_p{
+    color: rgba(0, 0, 0, 0.605);
+}
+.container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 400px 400px 400px;
+    gap: 8px;
+}
+.cnt_pic{
+    width: max-content;
+    height: 580px;
+    margin: auto;
+}
+.pic img{
+    width: 370px;
+    height: 60%;
+    margin-bottom: 20px;
+}
+.title a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.68);
+    font-size: 16px;
+    font-weight:lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    gap: 15%;
+    color:rgba(0, 0, 0, 0.7) ;
+    font-size: 14px;
+}
+.p_pic{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    color:rgba(0, 0, 0, 0.7) ;
+    margin-bottom: 15px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.view, .cart{
+    width: 17%;
+    height: 25px;
+    font-size: small;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 8px;
+    border: solid black 2px;
+}
+.cart{
+    background-color: black;
+    color: white;  
+}
+.view, .cart:hover{
+    cursor: pointer;
+}
+.cart:hover{
+    background-color: white;
+    color: black;
+}
+.view:hover{
+    background-color: black;
+    color: white;
+}
+.star i, .heart i{
+    padding-right: 3px;
+    font-size: 19px;
+}
+.star a{
+    text-decoration: none;
+    color: rgb(255, 115, 0);
+}
+.heart a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.345);
+}
+.heart i:hover{
+    color: red;
+}
+
+
+        /* third step */
+.search{
+    background-image: url(../img/them_pic.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.42);
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+    color: white;
+}
+.search_cnt{
+    text-align: center;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 25%;
+    background-color: transparent;
+}
+.h3_cnt, .inp_cnt, .srch_cnt{
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+.h3_cnt h3{
+    font-size: 32px;
+    font-weight: lighter;
+}
+.inp_cnt{
+    display: flex;
+}
+.inp_cnt input{
+    border: solid white 2px;
+    background-color: transparent;
+    height: 40px;
+    width: 450px;
+    padding-left: 10px;
+}
+.inp_cnt button{
+    height: 44px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    border: solid white 2px;
+    background-color: transparent;
+}
+.inp_cnt button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+table{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    padding-top: 40px;
+}
+.img_td img{
+    width: 485px;
+    height: 500px;
+}
+.frst_td{
+    background-color: white;
+    width: 450px;
+    height: 500px;
+    padding-left: 5px;
+    display: grid;
+}
+.scnd_tr, .frst_tr{
+    display: flex;
+    justify-content: space-around;
+}
+.scnd_tr{
+    flex-direction: row-reverse;
+}
+.h2_td{
+    font-size: 28px;
+    font-weight: 600;
+}
+.frst_price{
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.285);
+}
+.scnd_price{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.578);
+}
+.p_td{
+    color: rgba(0, 0, 0, 0.612);
+}
+.btn_td{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.btn_td button{
+    font-size: 15px;
+    font-weight: 600;
+    border: solid black 2px;
+    cursor: pointer;
+    width: 130px;
+    height: 35px;
+}
+.add_btn{
+    background-color: black;
+    color: white;
+}
+.view_btn{
+    background-color: white;
+    color: black;
+}
+.add_btn:hover{
+    background-color: white;
+    color: black;
+}
+.view_btn:hover{
+    background-color: black;
+    color: white;
+}
+        /* fourth step */
+.about{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    height: auto;
+}
+.about_pic img{
+    width: 700px;
+}
+.abt_cnt{
+    height: 100px;
+    width: 430px;
+    position: absolute;
+    right: 34%;
+    top: 500px;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #46ddb0;
+    color: white;
+    font-weight: 1200;
+    font-size: 30px;
+}
+.about_h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.about_cntn{
+    width: 240px;
+    position: relative;
+    top: 120px;
+}
+.about_p{
+    color: rgba(0, 0, 0, 0.612);
+    margin-top: 20px;
+    line-height: 1.6;
+}
+.learn{
+    font-size: 15px;
+    font-weight: 600;
+    border: solid black 2px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 130px;
+    height: 35px;
+    margin-top: 30px;
+}
+.learn:hover{
+    background-color: white;
+    color: black;
+}
+.team{
+    height: auto;
+    width: 80%;    
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.team_pic img{
+    width: 280px;
+    height: 280px;
+}
+.team_pic{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+.team_cnt{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.team_per{
+    display: grid;
+    grid-template-rows: 300px 60px 100px 10px;
+    width: 400px;
+}
+.team_h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.591);
+    margin-bottom: 4px;
+}
+.team_h6{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.308);
+}
+.team_p{
+    width: 370px;
+    color: rgba(0, 0, 0, 0.612);
+}
+.team_icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.team_icons a{
+    font-size: 27px;
+    color: rgba(0, 0, 0, 0.411);
+}
+.team_icons a:hover{
+    color: black;
+}
+        /* fourth step */
+.special{
+    background-image: url(../img/them_pic.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.42);
+    background-position: center;
+    height: 900px;
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+    color: white;
+}
+.spcl_cnt{
+    width: 60%;
+    margin: auto;
+    position: relative;
+    top: 140px;
+    text-align: center;
+}
+.spcl_time{
+    height: auto;
+    width: 900px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 210px;
+    left: 460px;
+    color: #46ddb0;
+    font-size: 35px;
+    text-align: center;
+}
+.spcl_time div{
+    padding-top: 15px;
+    width: 90px;
+    height: 100px;
+    background-color: white;
+    border: solid white 1px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.spcl_time div span {
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.521);
+}
+.spcl_h1{
+    font-size: 45px;
+}
+.spcl_h4{
+    font-size: 22px;
+    font-weight: 300;
+    color: rgb(172, 172, 172);
+}
+.spcl_p{
+    margin: auto;
+    margin-top: 25px;
+    width: 70%;
+    font-size: 20px;
+}
+.spcl_shop{
+    margin: auto;
+    position: relative;
+    top: 300px;
+    font-size: 18px;
+    border: solid white 2px;
+    text-align: center;
+    padding: auto;
+    padding-top: 10px;
+    height: 35px;
+    width: 150px;
+}
+.spcl_shop:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
